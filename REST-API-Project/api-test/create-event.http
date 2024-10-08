@@ -1,5 +1,7 @@
-PUT http://localhost:8080/events/1
+POST http://localhost:8080/events
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzI4NDAxODYwLCJ1c2VySWQiOjJ9.MfgJDPZ0yefAybYt8b8_w2RXtb64lghoZn36zgxcL90
+
 
 {
     "name":"panda Test event",
